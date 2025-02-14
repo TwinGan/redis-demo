@@ -1,0 +1,107 @@
+[2025-02-14 10:09:00] [INFO] [restartedMain] c.e.redisdemo.RedisDemoApplication - Starting RedisDemoApplication using Java 17.0.14 on Gan with PID 9076 (D:\Learning\JAVA Project\redis-demo\target\classes started by chong in D:\Learning\JAVA Project\redis-demo)
+[2025-02-14 10:09:00] [DEBUG] [restartedMain] c.e.redisdemo.RedisDemoApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+[2025-02-14 10:09:00] [INFO] [restartedMain] c.e.redisdemo.RedisDemoApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-02-14 10:09:00] [INFO] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-02-14 10:09:00] [INFO] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-02-14 10:09:01] [INFO] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+[2025-02-14 10:09:01] [INFO] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2025-02-14 10:09:01] [INFO] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+[2025-02-14 10:09:01] [INFO] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[2025-02-14 10:09:01] [INFO] [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[2025-02-14 10:09:01] [INFO] [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-02-14 10:09:01] [INFO] [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+[2025-02-14 10:09:01] [INFO] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-02-14 10:09:01] [INFO] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 704 ms
+[2025-02-14 10:09:01] [INFO] [restartedMain] org.redisson.Version - Redisson 3.20.0
+[2025-02-14 10:09:01] [INFO] [redisson-netty-2-9] o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 47.100.36.41/47.100.36.41:6379
+[2025-02-14 10:09:02] [INFO] [redisson-netty-2-23] o.r.c.pool.MasterConnectionPool - 10 connections initialized for 47.100.36.41/47.100.36.41:6379
+[2025-02-14 10:09:02] [INFO] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-02-14 10:09:02] [INFO] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2025-02-14 10:09:02] [INFO] [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[2025-02-14 10:09:02] [INFO] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[2025-02-14 10:09:02] [INFO] [restartedMain] c.e.redisdemo.RedisDemoApplication - Started RedisDemoApplication in 2.197 seconds (JVM running for 2.571)
+[2025-02-14 10:09:02] [INFO] [RMI TCP Connection(3)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-02-14 10:09:02] [INFO] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2025-02-14 10:09:02] [INFO] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[2025-02-14 10:09:06] [INFO] [hive-query-thread-1] c.e.r.s.SynchronizedQueryHiveService - 线程hive-query-thread-1 running，准备查询hive
+[2025-02-14 10:09:16] [INFO] [hive-query-thread-1] c.e.r.s.SynchronizedQueryHiveService - 线程hive-query-thread-1 hive 查询完毕，结果写入redis
+[2025-02-14 10:09:46] [INFO] [restartedMain] c.e.redisdemo.RedisDemoApplication - Starting RedisDemoApplication using Java 17.0.14 on Gan with PID 11944 (D:\Learning\JAVA Project\redis-demo\target\classes started by chong in D:\Learning\JAVA Project\redis-demo)
+[2025-02-14 10:09:46] [DEBUG] [restartedMain] c.e.redisdemo.RedisDemoApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+[2025-02-14 10:09:46] [INFO] [restartedMain] c.e.redisdemo.RedisDemoApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-02-14 10:09:46] [INFO] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-02-14 10:09:46] [INFO] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-02-14 10:09:46] [INFO] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+[2025-02-14 10:09:46] [INFO] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2025-02-14 10:09:46] [INFO] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[2025-02-14 10:09:47] [INFO] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[2025-02-14 10:09:47] [INFO] [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[2025-02-14 10:09:47] [INFO] [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-02-14 10:09:47] [INFO] [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+[2025-02-14 10:09:47] [INFO] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-02-14 10:09:47] [INFO] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 712 ms
+[2025-02-14 10:09:47] [INFO] [restartedMain] org.redisson.Version - Redisson 3.20.0
+[2025-02-14 10:09:47] [INFO] [redisson-netty-2-9] o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 47.100.36.41/47.100.36.41:6379
+[2025-02-14 10:09:47] [INFO] [redisson-netty-2-23] o.r.c.pool.MasterConnectionPool - 10 connections initialized for 47.100.36.41/47.100.36.41:6379
+[2025-02-14 10:09:48] [INFO] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-02-14 10:09:48] [INFO] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2025-02-14 10:09:48] [INFO] [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[2025-02-14 10:09:48] [INFO] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[2025-02-14 10:09:48] [INFO] [restartedMain] c.e.redisdemo.RedisDemoApplication - Started RedisDemoApplication in 2.163 seconds (JVM running for 2.528)
+[2025-02-14 10:09:48] [INFO] [RMI TCP Connection(3)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-02-14 10:09:48] [INFO] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2025-02-14 10:09:48] [INFO] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[2025-02-14 10:10:25] [INFO] [restartedMain] c.e.redisdemo.RedisDemoApplication - Starting RedisDemoApplication using Java 17.0.14 on Gan with PID 4416 (D:\Learning\JAVA Project\redis-demo\target\classes started by chong in D:\Learning\JAVA Project\redis-demo)
+[2025-02-14 10:10:25] [DEBUG] [restartedMain] c.e.redisdemo.RedisDemoApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+[2025-02-14 10:10:25] [INFO] [restartedMain] c.e.redisdemo.RedisDemoApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-02-14 10:10:25] [INFO] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-02-14 10:10:25] [INFO] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-02-14 10:10:25] [INFO] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+[2025-02-14 10:10:25] [INFO] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2025-02-14 10:10:25] [INFO] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+[2025-02-14 10:10:26] [INFO] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[2025-02-14 10:10:26] [INFO] [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[2025-02-14 10:10:26] [INFO] [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-02-14 10:10:26] [INFO] [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+[2025-02-14 10:10:26] [INFO] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-02-14 10:10:26] [INFO] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 707 ms
+[2025-02-14 10:10:26] [INFO] [restartedMain] org.redisson.Version - Redisson 3.20.0
+[2025-02-14 10:10:26] [INFO] [redisson-netty-2-9] o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 47.100.36.41/47.100.36.41:6379
+[2025-02-14 10:10:27] [INFO] [redisson-netty-2-23] o.r.c.pool.MasterConnectionPool - 10 connections initialized for 47.100.36.41/47.100.36.41:6379
+[2025-02-14 10:10:27] [INFO] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-02-14 10:10:27] [INFO] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2025-02-14 10:10:27] [INFO] [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[2025-02-14 10:10:27] [INFO] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[2025-02-14 10:10:27] [INFO] [restartedMain] c.e.redisdemo.RedisDemoApplication - Started RedisDemoApplication in 2.164 seconds (JVM running for 2.531)
+[2025-02-14 10:10:27] [INFO] [RMI TCP Connection(3)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-02-14 10:10:27] [INFO] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2025-02-14 10:10:27] [INFO] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2025-02-14 10:10:43] [INFO] [http-nio-8081-exec-1] c.e.r.s.SynchronizedQueryHiveService - 已存在对应参数查询
+[2025-02-14 10:10:45] [INFO] [http-nio-8081-exec-3] c.e.r.s.SynchronizedQueryHiveService - 已存在对应参数查询
+[2025-02-14 10:10:47] [INFO] [http-nio-8081-exec-4] c.e.r.s.SynchronizedQueryHiveService - 已存在对应参数查询
+[2025-02-14 10:22:22] [INFO] [restartedMain] c.e.redisdemo.RedisDemoApplication - Starting RedisDemoApplication using Java 17.0.14 on Gan with PID 29544 (D:\Learning\JAVA Project\redis-demo\target\classes started by chong in D:\Learning\JAVA Project\redis-demo)
+[2025-02-14 10:22:22] [DEBUG] [restartedMain] c.e.redisdemo.RedisDemoApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+[2025-02-14 10:22:22] [INFO] [restartedMain] c.e.redisdemo.RedisDemoApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-02-14 10:22:22] [INFO] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2025-02-14 10:22:22] [INFO] [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2025-02-14 10:22:22] [INFO] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+[2025-02-14 10:22:22] [INFO] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2025-02-14 10:22:22] [INFO] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+[2025-02-14 10:22:23] [INFO] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[2025-02-14 10:22:23] [INFO] [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[2025-02-14 10:22:23] [INFO] [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2025-02-14 10:22:23] [INFO] [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+[2025-02-14 10:22:23] [INFO] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2025-02-14 10:22:23] [INFO] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 735 ms
+[2025-02-14 10:22:23] [INFO] [restartedMain] org.redisson.Version - Redisson 3.20.0
+[2025-02-14 10:22:24] [INFO] [redisson-netty-2-9] o.r.c.p.MasterPubSubConnectionPool - 1 connections initialized for 47.100.36.41/47.100.36.41:6379
+[2025-02-14 10:22:24] [INFO] [redisson-netty-2-23] o.r.c.pool.MasterConnectionPool - 10 connections initialized for 47.100.36.41/47.100.36.41:6379
+[2025-02-14 10:22:25] [INFO] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2025-02-14 10:22:25] [INFO] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[2025-02-14 10:22:25] [INFO] [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[2025-02-14 10:22:25] [INFO] [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+[2025-02-14 10:22:25] [INFO] [restartedMain] c.e.redisdemo.RedisDemoApplication - Started RedisDemoApplication in 3.197 seconds (JVM running for 3.562)
+[2025-02-14 10:22:25] [INFO] [RMI TCP Connection(3)-192.168.0.102] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-02-14 10:22:25] [INFO] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2025-02-14 10:22:25] [INFO] [RMI TCP Connection(3)-192.168.0.102] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2025-02-14 10:22:33] [INFO] [hive-query-thread-1] c.e.r.s.SynchronizedQueryHiveService - 准备查询hive
+[2025-02-14 10:22:43] [INFO] [hive-query-thread-1] c.e.r.s.SynchronizedQueryHiveService - hive 查询完毕，结果写入redis
