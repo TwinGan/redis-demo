@@ -1,0 +1,33 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: redis-demo
+  data:
+    redis:
+      host: 47.100.36.41
+      port: 6379
+      password: foobared
+      database: 0
+      timeout: 3000
+logging:
+  level:
+    root: info
+    com.example: debug
+
+redisson:
+  config: |
+    singleServerConfig: 
+      address: "redis://47.100.36.41:6379"
+      password: "foobared"
+      database: 0
+      connectionMinimumIdleSize: 10
+      connectionPoolSize: 64
+      idleConnectionTimeout: 10000
+      connectTimeout: 3000
+      timeout: 3000
+      retryAttempts: 3
+      retryInterval: 1500
+    threads: 16
+    nettyThreads: 32
