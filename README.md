@@ -1,3 +1,4 @@
-Sychronized query database and store the results in Redis.
 
-Get query result wth uuid.
+## query the database and store the results in Redis.
+
+## Get query result with uuid.
