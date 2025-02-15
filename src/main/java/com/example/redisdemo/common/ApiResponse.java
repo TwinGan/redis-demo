@@ -43,7 +43,7 @@ public class ApiResponse<T> implements Serializable {
     }
 
     // 失败返回（自定义错误信息）
-    public static <T> ApiResponse<T> error(int code, String message) {
+    public static <T> ApiResponse<T> error(int code, String message, T data) {
         return new ApiResponse<>(code, message, null);
     }
 }

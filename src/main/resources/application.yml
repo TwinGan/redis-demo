@@ -11,6 +11,16 @@ spring:
       password: foobared
       database: 0
       timeout: 3000
+  datasource:
+    url: jdbc:mysql://47.100.36.41:3306/mydb?useSSL=false&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&useLegacyDatetimeCode=false
+    username: gan
+    password: 123456
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
 logging:
   level:
     root: info
@@ -31,3 +41,5 @@ redisson:
       retryInterval: 1500
     threads: 16
     nettyThreads: 32
+    
+    

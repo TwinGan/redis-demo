@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api")
 public class RedisController {
@@ -24,12 +26,12 @@ public class RedisController {
         return synchronizedQueryHiveService.queryHiveService(accountId, startDate, endDate);
     }
 
+    /**
+     * 通过uuid获取redis中缓存的查询结果
+     */
     @PostMapping("/interest-log/get")
-    public ApiResponse<String> getInterestLog(@RequestParam String uuid){
-        /**
-         * 代实现
-         */
-        return null;
+    public <T> ApiResponse<List<T>> getInterestLog(@RequestParam String uuid){
+        return redisService.getQueryResult(uuid);
     }
 
 
