@@ -21,7 +21,7 @@ public class RedisController {
     @Autowired
     private SynchronizedQueryHiveService synchronizedQueryHiveService;
 
-    @PostMapping("/interest-log/query")
+    @PostMapping("/redis-cache/query")
     public ApiResponse<String> queryInterestLog(@RequestParam String accountId, @RequestParam String startDate, @RequestParam String endDate){
         return synchronizedQueryHiveService.queryHiveService(accountId, startDate, endDate);
     }
@@ -29,7 +29,7 @@ public class RedisController {
     /**
      * 通过uuid获取redis中缓存的查询结果
      */
-    @PostMapping("/interest-log/get")
+    @PostMapping("/redis-cache/get")
     public <T> ApiResponse<List<T>> getInterestLog(@RequestParam String uuid){
         return redisService.getQueryResult(uuid);
     }

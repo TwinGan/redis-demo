@@ -1,4 +1,8 @@
+# Java Demo
+This is a demo to help me review my work projects.
 
-## query the database and store the results in Redis.
+It involves the usage of SQL database, ElasticSearch, Hbase and redis.
 
-## Get query result with uuid.
+However, I don't have ability to deploy Hbase and ES.
+
+The demo has been simplified to only redis and mysql. 
